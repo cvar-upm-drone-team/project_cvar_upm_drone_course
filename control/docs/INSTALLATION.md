@@ -89,10 +89,19 @@ docker compose build
 docker compose up -d
 ```
 
-4. You can connect to the container using `docker exec` in new terminal:
+4. Connect to the container using `docker exec` in new terminal:
 
 ```bash
 docker exec -it project_cvar_upm_drone_course_control bash
+```
+
+5. Build the workspace inside the container:
+
+```bash
+cd ~/project_cvar_upm_drone_course/control
+cd drone_course_ws
+colcon build --symlink-install
+source install/setup.bash
 ```
 
 _Note: You can use [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) to connect to the container's desktop environment. The default VNC port is `5901`._
