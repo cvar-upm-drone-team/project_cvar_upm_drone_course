@@ -19,7 +19,7 @@ Coordinates are **normalized** (values in `[0, 1]`) relative to image width and 
 The dataset is located at:
 
 ```
-project_upm_drone_course/datasets/yolo_masks/
+project_cvar_upm_drone_course/datasets/yolo_masks/
 ├── images/   # .jpg images
 ├── labels/   # .txt label files (same stem as the image)
 └── dataset.yaml

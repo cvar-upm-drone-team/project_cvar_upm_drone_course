@@ -39,7 +39,7 @@ source /opt/ros/humble/setup.bash
 2. Install workspace dependencies:
 
 ```bash
-cd ~/project_upm_drone_course/control
+cd ~/project_cvar_upm_drone_course/control
 cd drone_course_ws
 sudo rosdep init
 rosdep update
@@ -49,7 +49,7 @@ rosdep install --from-paths src -y --ignore-src
 3. Build workspace:
 
 ```bash
-cd ~/project_upm_drone_course/control
+cd ~/project_cvar_upm_drone_course/control
 cd drone_course_ws
 colcon build --symlink-install
 source install/setup.bash
@@ -74,7 +74,7 @@ echo "source ~/drone_course_ws/install/setup.bash" >> ~/.bashrc
 1. Navigate to the `docker` directory:
 
 ```bash
-cd ~/project_upm_drone_course/control/docker
+cd ~/project_cvar_upm_drone_course/control/docker
 ```
 
 2. Build the Docker image:
@@ -92,7 +92,7 @@ docker compose up -d
 4. You can connect to the container using `docker exec` in new terminal:
 
 ```bash
-docker exec -it project_upm_drone_course_control bash
+docker exec -it project_cvar_upm_drone_course_control bash
 ```
 
 _Note: You can use [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) to connect to the container's desktop environment. The default VNC port is `5901`._
@@ -104,7 +104,7 @@ _Note: You may use `xhost +` to allow the container to access your host's displa
 Go to the control directory:
 
 ```bash
-cd ~/project_upm_drone_course/control
+cd ~/project_cvar_upm_drone_course/control
 ```
 
 ### Launch simulation

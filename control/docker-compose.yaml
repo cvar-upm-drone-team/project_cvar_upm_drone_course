@@ -6,7 +6,7 @@ services:
       shm_size: '2gb'
     image: drone-course-control:latest
     shm_size: '2gb'
-    container_name: project_upm_drone_course_control
+    container_name: project_cvar_upm_drone_course_control
     hostname: drone-course-control-dev
     privileged: true
     environment:
