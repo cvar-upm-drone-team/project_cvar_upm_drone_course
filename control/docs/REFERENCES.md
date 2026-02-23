@@ -23,8 +23,7 @@
 - `geometry_msgs/TwistStamped`: https://docs.ros.org/en/humble/p/geometry_msgs/msg/TwistStamped.html
 - Aerostack2 message packages (`as2_msgs`): https://github.com/aerostack2/aerostack2/tree/main/as2_msgs
 - Local path service definitions:
-  - `drone_course_ws/src/exercise_1/srv/RequestPath.srv`
-  - `drone_course_ws/src/exercise_2/srv/RequestPath.srv`
+  - `control/drone_course_ws/src/drone_course_msgs/srv/RequestPath.srv`
 
 ## Aerostack2 Framework
 

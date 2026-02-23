@@ -7,7 +7,7 @@ cd ~
 git clone https://github.com/cvar-upm-drone-team/project_cvar_upm_drone_course.git
 ```
 
-You can choose between two setup:
+You can choose between two setups:
 
 - [Native Ubuntu + ROS 2 Humble](#native)
 - [Docker](#docker)
@@ -18,7 +18,7 @@ Then, you can test the installation by following the instructions in the [Runnin
 
 ### 1. Prerequisites
 
-- You need Ubuntu 22 with ROS 2 humble installed: [ROS 2 Humble Installation Guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
+- You need Ubuntu 22.04 with ROS 2 Humble installed: [ROS 2 Humble Installation Guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
 - You need also `tmux` and `tmuxinator` available:
 ```bash
 sudo apt update
@@ -58,7 +58,7 @@ source install/setup.bash
 4. (Optional) Add sourcing to `.bashrc`:
 
 ```bash
-echo "source ~/drone_course_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/project_cvar_upm_drone_course/control/drone_course_ws/install/setup.bash" >> ~/.bashrc
 ```
 
 ## Docker
@@ -131,7 +131,7 @@ A window like this should appear:
 
 
 ## Stop simulation
-Launch stop script in txmuninator session or in a new terminal:
+Launch stop script in tmuxinator session or in a new terminal:
 
 ```bash
 ./stop.bash
