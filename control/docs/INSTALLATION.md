@@ -16,6 +16,14 @@ Then, you can test the installation by following the instructions in the [Runnin
 
 ## Native
 
+Video tutorial with Aerostack2 by source installation:
+
+[![Installation with Aerostack2](resources/video_control_installation_source_w_as2.jpg)](https://youtu.be/WP4XgzKsdxE)
+
+Video tutorial using `rosdep` for dependencies installation:
+
+[![Installation using rosdep](resources/video_control_installation_source_w_rosdep.jpg)](https://youtu.be/jkoXc7SVJuk)
+
 ### 1. Prerequisites
 
 - You need Ubuntu 22.04 with ROS 2 Humble installed: [ROS 2 Humble Installation Guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
@@ -62,6 +70,10 @@ echo "source ~/project_cvar_upm_drone_course/control/drone_course_ws/install/set
 ```
 
 ## Docker
+
+Video tutorial:
+
+[![Installation using docker](resources/video_control_installation_docker.jpg)](https://youtu.be/tPer5hfMhLU)
 
 ### 1. Prerequisites
 

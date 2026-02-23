@@ -22,6 +22,10 @@ Simulation data view (e.g., control mode and drone state).
 
 Objective: send position references from the terminal and verify that the drone follows them.
 
+Example video for section 1.1:
+
+[![Control Exercise 1.1 example](../docs/resources/video_control_exercise_1_1.jpg)](https://youtu.be/G8XNPkg0nJs)
+
 ### Step 1. Launch the simulation
 
 Start the simulation environment:

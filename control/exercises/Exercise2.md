@@ -20,6 +20,10 @@ Simulation data view (e.g., control mode and drone state).
 
 Objective: send speed commands from terminal and verify the drone response.
 
+Example video for section 2.1:
+
+[![Control Exercise 2.1 example](../docs/resources/video_control_exercise_1_2.jpg)](https://youtu.be/C9yj270ExEo)
+
 ### Step 1. Launch the simulation
 
 Start the simulation environment:
