@@ -74,7 +74,7 @@ echo "source ~/project_cvar_upm_drone_course/control/drone_course_ws/install/set
 1. Navigate to the `docker` directory:
 
 ```bash
-cd ~/project_cvar_upm_drone_course/control/docker
+cd ~/project_cvar_upm_drone_course/control
 ```
 
 2. Build the Docker image:
