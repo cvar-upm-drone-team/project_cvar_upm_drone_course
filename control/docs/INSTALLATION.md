@@ -39,6 +39,7 @@ source /opt/ros/humble/setup.bash
 2. Install workspace dependencies:
 
 ```bash
+cd ~/project_upm_drone_course/control
 cd drone_course_ws
 sudo rosdep init
 rosdep update
@@ -48,6 +49,7 @@ rosdep install --from-paths src -y --ignore-src
 3. Build workspace:
 
 ```bash
+cd ~/project_upm_drone_course/control
 cd drone_course_ws
 colcon build --symlink-install
 source install/setup.bash
