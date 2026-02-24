@@ -98,3 +98,8 @@ ros2 run vision_exercise_3 exercise_3 --dataset_path <absolute path to the datas
 - `cv2.solvePnP` returns a rotation **vector** (Rodrigues). Use `cv2.Rodrigues` to convert it to a 3×3 rotation matrix, then extract the quaternion.
 - If `solvePnP` fails or produces unreasonable results, check that the 2D–3D point correspondences are consistent (same ordering in both lists).
 - Errors in corner detection propagate directly to the pose estimate — a robust corner detector from Exercise 2 will significantly improve results here.
+
+## Deliverables
+
+1. **Code** — submit either a `.zip` archive of your solution or a link to your fork of the repository on GitHub.
+2. **Demo video** — record a short video showing your solution running on the dataset. Verbally explain the approach you took, the key design decisions, and the results you obtained.

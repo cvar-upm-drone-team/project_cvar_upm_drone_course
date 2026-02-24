@@ -93,7 +93,12 @@ Then you are ready to run your program with:
 ros2 run vision_exercise_2 exercise_2 --dataset_path <absolute path to the dataset> 
 ```
 
-## Tips 
+## Deliverables
+
+1. **Code** — submit either a `.zip` archive of your solution or a link to your fork of the repository on GitHub.
+2. **Demo video** — record a short video showing your solution running on the dataset. Verbally explain the approach you took, the key design decisions, and the results you obtained.
+
+## Tips
 
 The script currently loads the dataset and calls `detect_corners`  To verify your implementation during development, you could add visualization inside the main loop:
 

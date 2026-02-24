@@ -19,7 +19,7 @@ Coordinates are **normalized** (values in `[0, 1]`) relative to image width and 
 The dataset is located at:
 
 ```
-project_cvar_upm_drone_course/datasets/yolo_masks/
+project_upm_drone_course/datasets/yolo_masks/
 ├── images/   # .jpg images
 ├── labels/   # .txt label files (same stem as the image)
 └── dataset.yaml
@@ -90,4 +90,9 @@ ros2 run vision_exercise_1 exercise_1 --dataset_path <absolute path to the datas
 - Inspect several images and their labels before coding. Use `cv2.imshow` or save intermediate results to understand the appearance of the gates.
 - Gates are typically rectangular structures with distinct color or contrast compared to the background.
 - Tune your thresholds on a subset of images before running the full evaluation.
+
+## Deliverables
+
+1. **Code** — submit either a `.zip` archive of your solution or a link to your fork of the repository on GitHub.
+2. **Demo video** — record a short video showing your solution running on the dataset. Verbally explain the approach you took, the key design decisions, and the results you obtained.
 
