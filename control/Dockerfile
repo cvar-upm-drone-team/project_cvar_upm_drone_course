@@ -1,16 +1,7 @@
-FROM aerostack2/nightly-humble:81518c85217bf95a34691263bfc7e766aec295a4
+FROM aerostack2/humble:control-v1.1.3
 
 USER root
 SHELL ["/bin/bash", "-c"]
-
-ARG DEBIAN_FRONTEND=noninteractive
-
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3-colcon-common-extensions \
-    python3-rosdep \
-    tmux \
-    tmuxinator \
-  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /root/project_cvar_upm_drone_course
 COPY . /root/project_cvar_upm_drone_course
