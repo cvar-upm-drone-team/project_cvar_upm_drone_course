@@ -7,6 +7,12 @@ The course is based on **ROS 2 Humble** and **[Aerostack2](https://aerostack2.gi
 
 <img src="control/docs/resources/multi-dron.png" alt="UPM Drone Course multi-drone simulation" width="500" />
 
+## Share This Repository
+
+Use this QR code to quickly share the repository:
+
+<img src="control/docs/resources/github_qr.png" alt="QR code for the CVAR-UPM Drone Course repository" width="300" />
+
 ## Control
 
 The control track covers ROS 2 interfaces, position/speed control, and smooth trajectory tracking through gates.
