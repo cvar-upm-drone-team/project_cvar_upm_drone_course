@@ -4,6 +4,11 @@
 
 - CVAR (Computer Vision & Aerial Robotics, UPM): https://cvar-upm.github.io/drone_racing_web/
 
+## Programming Fundamentals
+
+- C++: https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+- Python: https://www.youtube.com/watch?v=OFrLs22MDAw&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm&index=1
+
 ## ROS 2 (Humble)
 
 - ROS 2 Tutorials: https://docs.ros.org/en/humble/Tutorials.html
