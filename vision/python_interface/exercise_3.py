@@ -49,6 +49,9 @@ K = np.array(
 # Distortion coefficients [k1, k2, p1, p2, k3] - plumb_bob model
 DIST_COEFFS = np.zeros((5, 1), dtype=np.float64)  # all zero = no distortion
 
+OUTER_GATE_SIZE = 2.7
+INNER_GATE_SIZE = 1.5
+
 
 def load_dataset(dataset_path: str) -> list[tuple[cv2.Mat, list[Localization]]]:
     dataset = []
