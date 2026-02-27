@@ -39,7 +39,7 @@ Alternatively, open `vision/vision_ws/src/exercise_3/src/exercise_3.cpp` and com
 Takes a BGR image (`np.ndarray`) as input and returns a list of `Localization` objects. Each `Localization` is a tuple:
 
 ```python
-((x, y, z), (qx, qy, qz, qw))
+((x, y, z), (qw, qx, qy, qz))
 ```
 
 The recommended approach is:
