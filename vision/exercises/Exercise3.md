@@ -13,7 +13,7 @@ Given a set of 2D image points and their corresponding 3D world points, the **Pe
 Each label file contains one line per gate:
 
 ```
-<x> <y> <z>  <qx> <qy> <qz> <qw>
+<x> <y> <z> <qw> <qx> <qy> <qz> 
 ```
 
 - `x y z`: 3D position of the gate origin in the camera frame (metres).
