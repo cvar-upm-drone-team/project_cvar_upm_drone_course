@@ -2,7 +2,7 @@
 
 This repository contains the practical material for a drone course from **Universidad Politécnica de Madrid (UPM)**.
 This course was developed by the **CVAR Group (Computer Vision & Aerial Robotics), UPM**:
-https://cvar-upm.github.io/drone_racing_web/
+[https://cvar-upm.github.io/drone_racing_web/](https://cvar-upm.github.io/drone_team_web/)
 The course is based on **ROS 2 Humble** and **[Aerostack2](https://aerostack2.github.io/)**, and focuses on both multirotor control and computer-vision tasks for autonomous drone racing in a gate-circuit simulation.
 
 <img src="control/docs/resources/multi-dron.png" alt="UPM Drone Course multi-drone simulation" width="500" />
