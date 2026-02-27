@@ -121,7 +121,7 @@ def localize_gate(image: np.ndarray) -> list[Localization]:
     quat_z = 0
     quat_w = 0
     # TODO (Exercise 3): Use the code from previous tasks to calculate the camera position relative
-    # to the gate.
+    # to the gate. Use OUTER_GATE_SIZE and INNER_GATE_SIZE constants defined above
     return [((coord_X, coord_Y, coord_Z), (quat_x, quat_y, quat_z, quat_w))]
 
 
