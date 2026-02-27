@@ -54,6 +54,9 @@ const cv::Mat K = (cv::Mat_<double>(3, 3) <<
   0.0, 0.0, 1.0
 );
 
+const float OUTER_GATE_SIZE = 2.7;
+const float INNER_GATE_SIZE = 1.5;
+
 // Distortion coefficients [k1, k2, p1, p2, k3] - plumb_bob, all zero = no distortion
 const cv::Mat DIST_COEFFS = cv::Mat::zeros(5, 1, CV_64F);
 
@@ -153,6 +156,7 @@ std::vector<DatasetEntry> loadDataset(const std::string & datasetPath)
 std::vector<Localization> localizeGate(const cv::Mat & image)
 {
   // TODO(Exercise 3): Use PnP to calculate the camera position relative to the gate.
+  // Use INNER_GATE_SIZE and OUTER_GATE_SIZE constants defined above
   Coord3D coord = {0, 0, 0};
   Quaternion quat = {0, 0, 0, 0};
   return {{coord, quat}};
