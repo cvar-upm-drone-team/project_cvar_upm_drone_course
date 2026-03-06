@@ -175,7 +175,7 @@ void DroneCourseExercise3::timer_callback()
   // Store current error for next iteration
   prev_error_[0] = position_error_x;
   prev_error_[1] = position_error_y;
-  prev_error_[2] = position_error_z;control / python_interface / exercise_2
+  prev_error_[2] = position_error_z;
 
   // Generate motion reference command
   geometry_msgs::msg::TwistStamped velocity_msg;
