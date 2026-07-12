@@ -12,6 +12,8 @@ You can choose between two setups:
 - [Native Ubuntu + ROS 2 Humble](#native)
 - [Docker](#docker)
 
+_Windows users: see [WIN_INSTALLATION.md](WIN_INSTALLATION.md) for the Docker setup on Windows._
+
 Then, you can test the installation by following the instructions in the [Running the Course Environment](#run-the-course-environment) section below.
 
 ## Native

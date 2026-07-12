@@ -3,7 +3,7 @@
 This track contains the practical ROS 2 + Aerostack2 control exercises for the drone racing environment.
 The progression is designed to move from direct command execution to full autonomous control over a gate circuit.
 
-Before starting, follow the setup guide in [docs/INSTALLATION.md](docs/INSTALLATION.md).
+Before starting, follow the setup guide in [docs/INSTALLATION.md](docs/INSTALLATION.md) (Windows users: [docs/WIN_INSTALLATION.md](docs/WIN_INSTALLATION.md)).
 For API links and message references, use [docs/REFERENCES.md](docs/REFERENCES.md).
 
 ## Exercises
