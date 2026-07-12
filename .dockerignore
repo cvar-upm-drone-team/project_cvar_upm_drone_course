@@ -1,0 +1,9 @@
+**/build/
+**/install/
+**/log/
+**/logs/
+**/__pycache__/
+**/.vscode/
+.git/
+**/COLCON_IGNORE
+**/*_solution*
