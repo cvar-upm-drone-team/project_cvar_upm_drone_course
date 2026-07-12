@@ -6,6 +6,8 @@ SHELL ["/bin/bash", "-c"]
 WORKDIR /root/project_cvar_upm_drone_course
 COPY . /root/project_cvar_upm_drone_course
 
+RUN pip3 install future
+
 WORKDIR /root/project_cvar_upm_drone_course/control/drone_course_ws
 RUN source /opt/ros/humble/setup.bash \
   && source /root/aerostack2_ws/install/setup.bash \

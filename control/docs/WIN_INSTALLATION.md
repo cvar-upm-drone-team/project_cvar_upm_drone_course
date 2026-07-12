@@ -86,6 +86,15 @@ Inside the container (via `docker exec`, as in step 3.4):
 cd ~/project_cvar_upm_drone_course/control
 ```
 
+### Fix scripts format for Windows
+
+Run the following commands to make the scripts executable:
+```bash
+sed -i 's/\r$//' launch_as2.bash
+sed -i 's/\r$//' stop.bash
+sed -i 's/\r$//' config/initialize.bash
+```
+
 ### Launch simulation
 
 ```bash
