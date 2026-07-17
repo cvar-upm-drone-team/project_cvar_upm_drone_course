@@ -104,7 +104,8 @@ class DroneController(Node):
         self.path_idx: int = 0
 
         # Timer at 100Hz (0.01 seconds)
-        self.timer = self.create_timer(0.01, self.run, callback_group=self.callback_group)
+        self.dt = 0.01
+        self.timer = self.create_timer(self.dt, self.run, callback_group=self.callback_group)
 
         self.get_logger().info('Drone Controller Node initialized')
 
